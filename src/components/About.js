@@ -1,17 +1,16 @@
 /* Styles */
 import "../styles/App.scss";
-
 /* HOOKS */
-import React from "react";
 import { Routes, Route } from "react-router-dom";
-// import Header from "./Header";
+import React from "react";
+/* SECCIÓN DE IMPORT */
 import About from "./About";
 import Home from "./Home";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Navbar from "./Navbar";
-/* SECCIÓN DE IMPORT */
 
+/* ROUTES */
 function App() {
   return (
     <div>
