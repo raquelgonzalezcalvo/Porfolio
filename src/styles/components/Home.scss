@@ -1,0 +1,84 @@
+@import "../core/reset.scss";
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+
+  &__button {
+    cursor: pointer;
+    padding: 10px 45px;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    // font-weight: 500;
+    &:hover {
+      background: #f9e79f;
+      color: #d7bde2;
+    }
+    &__contact-button {
+      margin: 50px;
+    }
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .me {
+    width: 500px;
+    height: 425px;
+    border-radius: 60%;
+    // animation-duration: 3s;
+    // animation-name: slidein;
+
+    // @keyframes slidein {
+    //   from {
+    //     margin-left: 100%;
+    //   }
+
+    //   to {
+    //     margin-left: 0%;
+    //   }
+    // }
+  }
+  .home__text-wrapper {
+    animation-duration: 3s;
+    animation-name: slidein;
+
+    @keyframes slidein {
+      from {
+        margin-left: 100%;
+      }
+
+      to {
+        margin-left: 0%;
+      }
+    }
+  }
+  &__contact-me {
+    margin-top: 20px;
+
+    button {
+      cursor: pointer;
+      padding: 12px 50px;
+      font-size: 20px;
+      color: black;
+      border: 1px solid black;
+      border-radius: 10px;
+      background-color: transparent;
+
+      &:hover {
+        background: #f9e79f;
+        color: #d7bde2;
+      }
+    }
+  }
+}
+.home__contact-button {
+  margin-right: 30px;
+}
