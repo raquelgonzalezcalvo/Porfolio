@@ -22,17 +22,11 @@
     }
   }
 
-  h1 {
-    font-size: 40px;
-  }
-  h2 {
-    font-size: 20px;
-    margin-top: 20px;
-  }
   .me {
     width: 500px;
     height: 425px;
     border-radius: 60%;
+    object-fit: cover;
     // animation-duration: 3s;
     // animation-name: slidein;
 
@@ -62,23 +56,20 @@
   }
   &__contact-me {
     margin-top: 20px;
-
-    button {
-      cursor: pointer;
-      padding: 12px 50px;
-      font-size: 20px;
-      color: black;
-      border: 1px solid black;
-      border-radius: 10px;
-      background-color: transparent;
-
-      &:hover {
-        background: #f9e79f;
-        color: #d7bde2;
-      }
-    }
   }
 }
 .home__contact-button {
+  font-family: "poppins", sans-serif;
+  cursor: pointer;
+  padding: 12px 50px;
+  font-size: 20px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: transparent;
   margin-right: 30px;
+  &:hover {
+    background: #f9e79f;
+    color: #d7bde2;
+  }
 }
