@@ -42,7 +42,7 @@ const Navbar = () => {
   };
 
   const closeMenu = () => {
-    setToggleIcon(false); // Cerrar el menú de hamburguesa
+    // setToggleIcon(true); // Cerrar el menú de hamburguesa
     //   // setMenuOpen(false); // Ocultar el menú de navegación
   };
   return (
@@ -62,7 +62,7 @@ const Navbar = () => {
           {data.map((item, key) => (
             <li
               key={key}
-              onClick={closeMenu}
+              // onClick={closeMenu}
               className="header__navbar__container__menu__item"
             >
               <Link
