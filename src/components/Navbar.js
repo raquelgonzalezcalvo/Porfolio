@@ -3,7 +3,7 @@ import "../styles/core/reset.scss";
 import "../styles/components/Navbar.scss";
 import { HiX } from "react-icons/hi";
 import { FaBars } from "react-icons/fa";
-import logo from "../images/logo.png";
+import logo from "../images/logo_transparent.png";
 import { Link } from "react-router-dom";
 import { BiHomeAlt } from "react-icons/bi";
 import { BsPersonPlus } from "react-icons/bs";
@@ -34,17 +34,16 @@ const data = [
 ];
 const Navbar = () => {
   const [toggleIcon, setToggleIcon] = useState(false);
-  // const [menuOpen, setMenuOpen] = useState(false);
 
   const handleToggleIcon = () => {
     setToggleIcon(!toggleIcon);
-    // setMenuOpen(!menuOpen);
   };
 
   const closeMenu = () => {
-    // setToggleIcon(true); // Cerrar el menú de hamburguesa
-    //   // setMenuOpen(false); // Ocultar el menú de navegación
+    setToggleIcon(false); // Cerrar el menú de hamburguesa
+    console.log(toggleIcon);
   };
+
   return (
     <header className="header">
       <nav className="header__navbar">
@@ -62,7 +61,7 @@ const Navbar = () => {
           {data.map((item, key) => (
             <li
               key={key}
-              // onClick={closeMenu}
+              onClick={closeMenu}
               className="header__navbar__container__menu__item"
             >
               <Link

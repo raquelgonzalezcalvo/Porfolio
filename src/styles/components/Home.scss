@@ -3,8 +3,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 70px;
-
+  margin-top: 60px;
+  &__image {
+    &__me {
+      width: 52vmin;
+      height: 52vmin;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
   &__button {
     cursor: pointer;
     padding: 10px 45px;
@@ -12,35 +19,15 @@
     color: black;
     border: 1px solid black;
     border-radius: 10px;
-    // font-weight: 500;
     &:hover {
       background: #f9e79f;
-      color: #d7bde2;
     }
     &__contact-button {
-      margin: 50px;
     }
   }
-
-  .me {
-    width: 500px;
-    height: 425px;
-    border-radius: 60%;
-    object-fit: cover;
-    // animation-duration: 3s;
-    // animation-name: slidein;
-
-    // @keyframes slidein {
-    //   from {
-    //     margin-left: 100%;
-    //   }
-
-    //   to {
-    //     margin-left: 0%;
-    //   }
-    // }
-  }
-  .home__text-wrapper {
+  &__text {
+    font-size: 20px;
+    text-align: center;
     animation-duration: 3s;
     animation-name: slidein;
 
@@ -54,22 +41,63 @@
       }
     }
   }
-  &__contact-me {
+  &__contact {
+    color: #6d2c7d;
     margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    display: flex;
+    &__button {
+      font-family: "poppins", sans-serif;
+      cursor: pointer;
+      padding: 12px 50px;
+      font-size: 20px;
+      color: black;
+      border: 1px solid black;
+      border-radius: 10px;
+      background-color: transparent;
+      &:hover {
+        background: #f9e79f;
+        color: #d7bde2;
+      }
+    }
+    &__cv {
+      font-family: "poppins", sans-serif;
+      cursor: pointer;
+      padding: 12px 50px;
+      font-size: 20px;
+      color: black;
+      border: 1px solid black;
+      border-radius: 10px;
+      background-color: transparent;
+      &:hover {
+        background: #f9e79f;
+        color: #d7bde2;
+      }
+    }
   }
 }
-.home__contact-button {
-  font-family: "poppins", sans-serif;
-  cursor: pointer;
-  padding: 12px 50px;
-  font-size: 20px;
-  color: black;
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color: transparent;
-  margin-right: 30px;
-  &:hover {
-    background: #f9e79f;
-    color: #d7bde2;
+@media (max-width: 321px) {
+  .home {
+    &__text {
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+    &__image {
+      &__me {
+        width: 90vmin;
+        height: 90vmin;
+        object-fit: cover;
+      }
+    }
+    &__contact {
+      &__button {
+        padding: 11px 38px;
+      }
+      &__cv {
+        padding: 11px 32px;
+      }
+    }
   }
 }

@@ -1,0 +1,59 @@
+@import "../core/reset.scss";
+.social {
+  &__wrapper {
+    padding-top: 250px;
+    text-align: center;
+    width: 100%;
+    &-icon {
+      list-style: none;
+      display: inline-block;
+      position: relative;
+      width: 140px;
+      height: 140px;
+      text-align: center;
+      background: #fff;
+      border-radius: 50%;
+      margin: 13px;
+      cursor: pointer;
+      z-index: 1;
+    }
+  }
+}
+.custom-ul .custom-li::before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  background: #f9e79f;
+  border-radius: 50%;
+  transform: scale(0, 0);
+  transition: 0.9s;
+  z-index: -1;
+}
+
+.custom-ul .custom-li:hover::before {
+  transform: scale(1, 1);
+}
+
+.custom-ul .custom-li .custom-a {
+  display: inline-block;
+  color: #262626;
+  line-height: 140px;
+  padding-top: 7px;
+  font-size: 47px;
+  transition: 0.9s;
+}
+
+.custom-ul .custom-li:hover .custom-a {
+  color: #fff;
+}
+
+@media (max-width: 320px) {
+  .social {
+    &__wrapper {
+      padding-top: 100px;
+    }
+  }
+}
