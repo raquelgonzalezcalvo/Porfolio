@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/core/reset.scss";
 import Skills from "./Skills";
+// import "../styles/components/About.scss";
 import image from "../images/me2.png";
 
 const About = () => {
@@ -24,6 +25,7 @@ const About = () => {
             de aprender y mi capacidad de adaptación.
           </p>
         </div>
+        {/* <img className="about__div__img" src={image} alt="image2"></img> */}
       </section>
       <div>
         <Skills></Skills>

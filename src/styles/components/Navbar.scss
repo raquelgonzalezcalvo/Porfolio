@@ -3,12 +3,19 @@
   height: 100%;
 }
 .header {
+  // background-color: rgba(127, 255, 212, 0.368);
+
   &__navbar {
+    // background-color: var(--Pink);
+
     height: 100px;
     display: flex;
     justify-content: space-between;
     &__container {
+      // background-color: rgba(193, 127, 255, 0.603);
+
       &__menu {
+        // background-color: var(--Green);
         display: flex;
         align-items: center;
         max-width: 729px;
@@ -29,10 +36,12 @@
             content: "";
             width: 100%;
             background-color: #f9e79f;
+            // background: ;
           }
           &__links {
             svg {
               font-size: 25px;
+              // color: #6d2c7d;
               color: #f9e79f;
               vertical-align: middle;
               padding-right: 10px;
@@ -56,11 +65,16 @@
         &__menu {
           max-width: 768px;
           position: absolute;
+
           top: 100px;
+
           left: -110%;
+
           transition: all 0.5s ease;
           &.active {
             background-color: var(--Light-Pink);
+            //
+            // background: #9fbaf9;
             left: 0px;
           }
           &__item {
@@ -79,6 +93,7 @@
   .nav__icon {
     cursor: pointer;
     color: #fff5ee;
+    // background-color: var(--Light-Pink);
     min-width: 100px;
     display: flex;
     justify-content: center;

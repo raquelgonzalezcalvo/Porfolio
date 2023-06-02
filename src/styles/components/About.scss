@@ -51,6 +51,20 @@
     padding: 0 20px;
     font-size: 20px;
   }
+  @media (max-width: 768px) {
+    .about {
+      &__div {
+      }
+      &__p {
+      }
+      &__img {
+      }
+    }
+    .skills {
+    }
+    .skills__icon {
+    }
+  }
   @media (max-width: 320px) {
     .about {
       &__div {
