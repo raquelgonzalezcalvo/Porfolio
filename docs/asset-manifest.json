@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.e289fd8a.css",
-    "main.js": "./static/js/main.fb8eb00a.js",
+    "main.css": "./static/css/main.c84f005d.css",
+    "main.js": "./static/js/main.ce861d17.js",
     "static/media/anonymus.png": "./static/media/anonymus.0e111d023667673cbe49.png",
     "static/media/Harry Potter.png": "./static/media/Harry Potter.a9f97415cffeb3a07f7c.png",
     "static/media/Uluru.png": "./static/media/Uluru.e9361e3940f72b2e18cd.png",
@@ -9,15 +9,15 @@
     "static/media/Cocktaill.png": "./static/media/Cocktaill.e3be3f2af5910cdf1a62.png",
     "static/media/GestorProjectos.png": "./static/media/GestorProjectos.e6e2a981e86ee77a6bf9.png",
     "static/media/CVRaquelGonzález.pdf": "./static/media/CVRaquelGonzález.9a0f1126926d9ae0f903.pdf",
-    "static/media/me2.png": "./static/media/me2.b8ea18a905f44e77f582.png",
+    "static/media/me.png": "./static/media/me.0b30f2b1913e5ef81aa8.png",
     "static/media/porfolio.me.jpg": "./static/media/porfolio.me.22a151ac7c9a347b45ef.jpg",
     "static/media/logo_transparent.png": "./static/media/logo_transparent.925cbf074bd3d3328de8.png",
     "index.html": "./index.html",
-    "main.e289fd8a.css.map": "./static/css/main.e289fd8a.css.map",
-    "main.fb8eb00a.js.map": "./static/js/main.fb8eb00a.js.map"
+    "main.c84f005d.css.map": "./static/css/main.c84f005d.css.map",
+    "main.ce861d17.js.map": "./static/js/main.ce861d17.js.map"
   },
   "entrypoints": [
-    "static/css/main.e289fd8a.css",
-    "static/js/main.fb8eb00a.js"
+    "static/css/main.c84f005d.css",
+    "static/js/main.ce861d17.js"
   ]
 }
