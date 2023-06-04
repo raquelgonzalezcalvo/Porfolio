@@ -4,12 +4,12 @@
   height: 100%;
 }
 .header {
-  // background-color: rgba(127, 255, 212, 0.368);
-
   &__navbar {
     height: 100px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
     &__container {
       &__menu {
         display: flex;
