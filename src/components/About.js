@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/core/reset.scss";
 import Skills from "./Skills";
 // import "../styles/components/About.scss";
-import image from "../images/me2.png";
+import image from "../images/me.png";
 
 const About = () => {
   return (

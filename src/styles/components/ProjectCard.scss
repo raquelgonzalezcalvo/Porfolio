@@ -11,7 +11,9 @@
     margin: 20px 13px 15px 12px;
   }
   &__img {
-    width: 300px;
+    max-width: 300px;
+    min-height: 166px;
+    object-fit: cover;
   }
   &__links {
     &-icon {

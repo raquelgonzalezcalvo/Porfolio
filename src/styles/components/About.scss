@@ -1,10 +1,11 @@
 @import "../core/reset.scss";
 .about {
-  padding-top: 40px;
+  padding-top: calc(50px + 3vw);
   &__div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    padding: 0 20px;
 
     &__h2 {
     }
@@ -41,23 +42,27 @@
   }
 
   .about__div__img {
+    margin: 0 auto;
     max-width: 800px;
     &-img {
       width: 100%;
     }
   }
   .about__div__p {
-    margin: 100px auto 0px auto;
+    margin: 20px auto 0px auto;
     padding: 0 20px;
     font-size: 20px;
   }
   @media (max-width: 768px) {
     .about {
       &__div {
-      }
-      &__p {
-      }
-      &__img {
+        margin-top: 60px;
+        grid-template-columns: 1fr;
+        &__img {
+        }
+        &__p {
+          margin: 30px auto 0px auto;
+        }
       }
     }
     .skills {
@@ -65,19 +70,19 @@
     .skills__icon {
     }
   }
-  @media (max-width: 320px) {
-    .about {
-      &__div {
-        display: grid;
-        grid-template-columns: 1fr;
-        &__p {
-          margin-top: 25px;
-        }
-        &__img {
-          margin-right: 15px;
-          margin-top: 70px;
-        }
-      }
-    }
-  }
+  // @media (max-width: 320px) {
+  //   .about {
+  //     &__div {
+  //       display: grid;
+  //       grid-template-columns: 1fr;
+  //       &__p {
+  //         margin-top: 25px;
+  //       }
+  //       &__img {
+  //         margin-right: 15px;
+  //         margin-top: 70px;
+  //       }
+  //     }
+  //   }
+  // }
 }

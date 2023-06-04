@@ -1,8 +1,12 @@
 @import "../core/reset.scss";
 .social {
   &__wrapper {
-    padding-top: 250px;
-    text-align: center;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: calc(50px + 7vh);
     width: 100%;
     &-icon {
       list-style: none;
@@ -45,15 +49,18 @@
   font-size: 47px;
   transition: 0.9s;
 }
-
+.image__contact {
+  height: 300px;
+}
 .custom-ul .custom-li:hover .custom-a {
   color: #fff;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .social {
     &__wrapper {
-      padding-top: 100px;
+      flex-direction: column;
+      // padding-top: 100px;
     }
   }
 }

@@ -24,6 +24,7 @@ const Home = () => {
         <button className="home__contact__button" onClick={handleContactme}>
           Contáctame
         </button>
+
         <a
           href={CV}
           download="CVRaquelGonzález"

@@ -79,26 +79,35 @@
     }
   }
 }
-@media (max-width: 321px) {
+
+@media (max-width: 768px) {
   .home {
-    &__text {
-      padding-top: 30px;
-      padding-bottom: 20px;
+    &__image {
+      margin-top: 60px;
     }
     &__image {
       &__me {
-        width: 90vmin;
-        height: 90vmin;
+        width: 70vmin;
+        height: 70vmin;
         object-fit: cover;
-      }
-    }
-    &__contact {
-      &__button {
-        padding: 11px 38px;
-      }
-      &__cv {
-        padding: 11px 32px;
       }
     }
   }
 }
+// @media (max-width: 321px) {
+//   .home {
+//     &__text {
+//       padding-top: 30px;
+//       padding-bottom: 20px;
+//     }
+
+//     &__contact {
+//       &__button {
+//         padding: 11px 38px;
+//       }
+//       &__cv {
+//         padding: 11px 32px;
+//       }
+//     }
+//   }
+// }
