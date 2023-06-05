@@ -2,9 +2,9 @@ import ProjectCard from "./ProjectCard";
 import Anonymus from "../images/anonymus.png";
 import "../styles/components/Projects.scss";
 import Uluru from "../images/Uluru.png";
-import Cocktail from "../images/Cocktaill.png";
+import Cocktail from "../images/Cocktail.png";
 import Card from "../images/Awesome profile-cards.png";
-import HarryPotter from "../images/Harry Potter.png";
+import HarryPotter from "../images/HarryPotter.png";
 import GestorProyectos from "../images/GestorProjectos.png";
 
 function Proyects() {
