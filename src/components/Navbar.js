@@ -34,17 +34,21 @@ const data = [
 ];
 const Navbar = () => {
   const [toggleIcon, setToggleIcon] = useState(false);
+  // const [applyFilter, setApplyFilter] = useState(false);
 
   const handleToggleIcon = () => {
     setToggleIcon(!toggleIcon);
+    // setApplyFilter(!applyFilter);
   };
 
   const closeMenu = () => {
     setToggleIcon(false); // Cerrar el menú de hamburguesa
     console.log(toggleIcon);
+    // setApplyFilter(false);
   };
 
   return (
+    // <div className={`content ${applyFilter ? "apply-filter" : ""}`}>
     <header className="header">
       <nav className="header__navbar">
         <div className="header__navbar__container">

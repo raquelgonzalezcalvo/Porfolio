@@ -6,6 +6,7 @@ import Cocktail from "../images/Cocktail.png";
 import Card from "../images/Awesome profile-cards.png";
 import HarryPotter from "../images/HarryPotter.png";
 import GestorProyectos from "../images/GestorProjectos.png";
+import JuegoMemoria from "../images/JuegoMemoria.png";
 
 function Proyects() {
   return (
@@ -70,6 +71,14 @@ function Proyects() {
             proyect={
               "https://raquelgonzalezcalvo.github.io/Gestor-de-proyectos/#/create"
             }
+          />
+        </div>
+        <div className="proyects__listProyects__listProyects1">
+          <ProjectCard
+            title={"Juego de memoria"}
+            img={JuegoMemoria}
+            code={"https://github.com/raquelgonzalezcalvo/Juego-de-memoria"}
+            proyect={"https://raquelgonzalezcalvo.github.io/Juego-de-memoria/"}
           />
         </div>
       </div>
