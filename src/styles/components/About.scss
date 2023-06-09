@@ -38,6 +38,9 @@
     box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
     font-size: 70px;
     padding: 10px;
+    :hover {
+      animation: pulse 4s infinite;
+    }
   }
 
   .about__div__img {
@@ -69,19 +72,4 @@
     .skills__icon {
     }
   }
-  // @media (max-width: 320px) {
-  //   .about {
-  //     &__div {
-  //       display: grid;
-  //       grid-template-columns: 1fr;
-  //       &__p {
-  //         margin-top: 25px;
-  //       }
-  //       &__img {
-  //         margin-right: 15px;
-  //         margin-top: 70px;
-  //       }
-  //     }
-  //   }
-  // }
 }

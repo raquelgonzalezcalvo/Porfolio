@@ -1,9 +1,5 @@
 @import "../core/reset.scss";
 .proyects__listProyects {
-  // display: grid;
-  // grid-template-columns: 1fr 1fr 1fr;
-  // grid-template-rows: 1fr 1fr;
-  // justify-items: center;
   gap: 40px;
   display: flex;
   justify-content: center;
@@ -19,7 +15,5 @@
 @media (max-width: 320px) {
   .proyects__listProyects {
     margin-top: 80px;
-    // display: grid;
-    // grid-template-columns: 1fr;
   }
 }
