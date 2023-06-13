@@ -8,8 +8,11 @@
     justify-content: center;
     padding-bottom: calc(50px + 7vh);
     width: 100%;
+    &-icon:hover {
+      // animation: 3s floating 1s infinite alternate linear;
+    }
     &-icon {
-      animation: 3s floating 1s infinite alternate linear;
+      animation: 3s floating 0s infinite alternate linear;
       @keyframes floating {
         0% {
           transform: translate(0, 0) rotate(-10deg);
@@ -20,11 +23,11 @@
         }
 
         70% {
-          transform: translate(7px, -5px) rotate(-20deg);
+          transform: translate(7px, -5px) rotate(10deg);
         }
 
         100% {
-          transform: translate(-2px, 6px) rotate(-40deg);
+          transform: translate(-2px, 6px) rotate(-10deg);
         }
       }
       list-style: none;

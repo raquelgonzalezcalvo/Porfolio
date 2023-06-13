@@ -2,6 +2,10 @@
 @import "../core/variables.scss";
 .image {
   height: 100%;
+  &:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+  }
 }
 // .content {
 //   filter: brightness(70%);
