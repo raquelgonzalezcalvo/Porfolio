@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.062c17a9.css",
-    "main.js": "./static/js/main.1eea5b6e.js",
+    "main.js": "./static/js/main.8be8e710.js",
     "static/media/anonymus.png": "./static/media/anonymus.0e111d023667673cbe49.png",
     "static/media/HarryPotter.png": "./static/media/HarryPotter.343daa86e0c828a5376d.png",
     "static/media/Uluru.png": "./static/media/Uluru.e9361e3940f72b2e18cd.png",
@@ -12,13 +12,14 @@
     "static/media/CVRaquelGonzález.pdf": "./static/media/CVRaquelGonzález.9a0f1126926d9ae0f903.pdf",
     "static/media/me.png": "./static/media/me.0b30f2b1913e5ef81aa8.png",
     "static/media/porfolio.me.jpg": "./static/media/porfolio.me.22a151ac7c9a347b45ef.jpg",
+    "static/media/advice-generator-app.png": "./static/media/advice-generator-app.e5d99fd6ff152cb87bf7.png",
     "static/media/logo_transparent.png": "./static/media/logo_transparent.925cbf074bd3d3328de8.png",
     "index.html": "./index.html",
     "main.062c17a9.css.map": "./static/css/main.062c17a9.css.map",
-    "main.1eea5b6e.js.map": "./static/js/main.1eea5b6e.js.map"
+    "main.8be8e710.js.map": "./static/js/main.8be8e710.js.map"
   },
   "entrypoints": [
     "static/css/main.062c17a9.css",
-    "static/js/main.1eea5b6e.js"
+    "static/js/main.8be8e710.js"
   ]
 }
