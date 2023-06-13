@@ -7,6 +7,7 @@ import Card from "../images/Awesome profile-cards.png";
 import HarryPotter from "../images/HarryPotter.png";
 import GestorProyectos from "../images/GestorProjectos.png";
 import JuegoMemoria from "../images/JuegoMemoria.png";
+import AdviceGenerator from "../images/advice-generator-app.png";
 
 function Proyects() {
   return (
@@ -79,6 +80,16 @@ function Proyects() {
             img={JuegoMemoria}
             code={"https://github.com/raquelgonzalezcalvo/Juego-de-memoria"}
             proyect={"https://raquelgonzalezcalvo.github.io/Juego-de-memoria/"}
+          />
+        </div>
+        <div className="proyects__listProyects__listProyects1">
+          <ProjectCard
+            title={"Advice generator"}
+            img={AdviceGenerator}
+            code={"https://github.com/raquelgonzalezcalvo/advice-generator-app"}
+            proyect={
+              "https://raquelgonzalezcalvo.github.io/advice-generator-app/"
+            }
           />
         </div>
       </div>
