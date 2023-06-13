@@ -29,6 +29,10 @@
     margin: 0 auto;
   }
   .skills__icons {
+    &:hover {
+      transition: transform 0.5s;
+      transform: scale(1.1);
+    }
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -38,8 +42,9 @@
     box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
     font-size: 70px;
     padding: 10px;
+
     :hover {
-      animation: pulse 4s infinite;
+      // animation: pulse 4s infinite;
     }
   }
 

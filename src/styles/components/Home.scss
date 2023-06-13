@@ -6,29 +6,11 @@
   align-items: center;
   margin-top: 20px;
   &__image {
-    // animation: 3s floating 1s infinite alternate linear;
     &__me {
       width: 52vmin;
       height: 52vmin;
       border-radius: 50%;
       object-fit: cover;
-      // @keyframes floating {
-      //   0% {
-      //     transform: translate(0, 0) rotate(-10deg);
-      //   }
-
-      //   30% {
-      //     transform: translate(5px, 3px) rotate(0);
-      //   }
-
-      //   70% {
-      //     transform: translate(7px, -5px) rotate(-20deg);
-      //   }
-
-      //   100% {
-      //     transform: translate(-2px, 6px) rotate(-40deg);
-      //   }
-      // }
     }
   }
   &__button {
@@ -77,7 +59,6 @@
       border: 1px solid black;
       border-radius: 10px;
       background-color: transparent;
-      animation: wiggle 4s 2s infinite;
       @keyframes wiggle {
         5%,
         50% {
@@ -107,6 +88,7 @@
       }
 
       &:hover {
+        animation: wiggle 4s 2s;
         background: #f9e79f;
         color: #d7bde2;
       }
@@ -120,34 +102,6 @@
       border: 1px solid black;
       border-radius: 10px;
       background-color: transparent;
-      animation: wiggle 4s 2s infinite;
-      @keyframes wiggle {
-        5%,
-        50% {
-          transform: scale(1);
-        }
-        10% {
-          transform: scale(0.9);
-        }
-        15% {
-          transform: scale(1.15);
-        }
-        20% {
-          transform: scale(1.15) rotate(-5deg);
-        }
-        25% {
-          transform: scale(1.15) rotate(5deg);
-        }
-        30% {
-          transform: scale(1.15) rotate(-3deg);
-        }
-        35% {
-          transform: scale(1.15) rotate(2deg);
-        }
-        40% {
-          transform: scale(1.15) rotate(0);
-        }
-      }
 
       &:hover {
         background: #f9e79f;
