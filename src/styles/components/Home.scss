@@ -28,6 +28,18 @@
     }
   }
   &__text {
+    animation-duration: 3s;
+    animation-name: left;
+
+    @keyframes left {
+      from {
+        margin-left: 100%;
+      }
+
+      to {
+        margin-left: 0%;
+      }
+    }
     font-size: 20px;
     text-align: center;
   }
