@@ -7,6 +7,18 @@
   flex-wrap: wrap;
   max-width: 1600px;
   margin: 60px auto 90px auto;
+  animation-duration: 3s;
+  animation-name: slidein;
+
+  @keyframes slidein {
+    from {
+      margin-top: 100%;
+    }
+
+    to {
+      margin-top: 0%;
+    }
+  }
   &__listProyects1 {
     transition: transform 0.5s;
     &:not(img):hover {
