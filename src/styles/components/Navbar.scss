@@ -36,15 +36,13 @@
           &:hover::after {
             content: "";
             width: 100%;
-            background-color: #f9e79f;
-            // background: ;
+            background-color: $yellow;
           }
           &__links {
             svg {
               font-size: 25px;
-              color: #f9e79f;
+              color: $yellow;
               vertical-align: middle;
-              // padding-right: 10px;
               font-size: 30px;
               margin-bottom: 8px;
             }

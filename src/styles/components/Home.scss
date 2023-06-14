@@ -22,7 +22,7 @@
     border-radius: 10px;
 
     &:hover {
-      background: #f9e79f;
+      background: $yellow;
     }
     &__contact-button {
     }
@@ -32,7 +32,6 @@
     text-align: center;
   }
   &__contact {
-    color: #6d2c7d;
     margin-top: 20px;
     justify-content: center;
     flex-wrap: wrap;
@@ -121,7 +120,7 @@
           }
         }
         background: #f9e79f;
-        color: #d7bde2;
+        color: $Light-purple;
       }
     }
   }

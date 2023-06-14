@@ -1,6 +1,7 @@
 @import "../core/reset.scss";
+@import "../core/variables.scss";
 .proyect__container {
-  background-color: rgba(193, 127, 255, 0.603);
+  background-color: $purple-background;
   padding-top: 8px;
   border-radius: 30px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
@@ -33,7 +34,7 @@
   font-size: 20px;
   cursor: pointer;
   &:hover {
-    background: #f9e79f;
-    color: #d7bde2;
+    background: $yellow;
+    color: $Light-purple;
   }
 }

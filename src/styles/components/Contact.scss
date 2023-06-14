@@ -1,4 +1,5 @@
 @import "../core/reset.scss";
+@import "../core/variables.scss";
 .social {
   &__wrapper {
     display: flex;
@@ -9,7 +10,6 @@
     padding-bottom: calc(50px + 7vh);
     width: 100%;
     &-icon:hover {
-      // animation: 3s floating 1s infinite alternate linear;
     }
     &-icon {
       animation: 3s floating 0s infinite alternate linear;
@@ -51,7 +51,7 @@
   height: 90%;
   top: 5%;
   left: 5%;
-  background: #f9e79f;
+  background: $yellow;
   border-radius: 50%;
   transform: scale(0, 0);
   transition: 0.9s;
@@ -81,7 +81,6 @@
   .social {
     &__wrapper {
       flex-direction: column;
-      // padding-top: 100px;
     }
   }
 }
