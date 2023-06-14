@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.a8c30f21.css",
+    "main.css": "./static/css/main.324ff95f.css",
     "main.js": "./static/js/main.0b5bc49d.js",
     "static/media/anonymus.png": "./static/media/anonymus.0e111d023667673cbe49.png",
     "static/media/HarryPotter.png": "./static/media/HarryPotter.343daa86e0c828a5376d.png",
@@ -15,11 +15,11 @@
     "static/media/advice-generator-app.png": "./static/media/advice-generator-app.e5d99fd6ff152cb87bf7.png",
     "static/media/logo_transparent.png": "./static/media/logo_transparent.925cbf074bd3d3328de8.png",
     "index.html": "./index.html",
-    "main.a8c30f21.css.map": "./static/css/main.a8c30f21.css.map",
+    "main.324ff95f.css.map": "./static/css/main.324ff95f.css.map",
     "main.0b5bc49d.js.map": "./static/js/main.0b5bc49d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8c30f21.css",
+    "static/css/main.324ff95f.css",
     "static/js/main.0b5bc49d.js"
   ]
 }
