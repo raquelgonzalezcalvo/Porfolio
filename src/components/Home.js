@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/components/Home.scss";
 import me from "../images/porfolio.me.jpg";
-import CV from "../assets/CVRaquelGonzález.pdf";
+import CV from "../assets/CV Raquel González Calvo.pdf";
 import Footer from "./Footer";
 
 const Home = () => {
