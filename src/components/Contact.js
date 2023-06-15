@@ -13,7 +13,7 @@ const Contact = () => {
           <li class="custom-li social__wrapper-icon">
             <a
               className="custom-a contact"
-              href="https://www.linkedin.com/in/raquel-gonzález-calvo-999bab272"
+              href="https://www.linkedin.com/in/raquel-gonz%C3%A1lez-calvo-"
               target="_blank"
               rel="noreferrer"
             >
